@@ -65,19 +65,25 @@ Built as part of ongoing IT support and networking skill development.
 | Server-PT | FastEthernet0 | 192.168.10.8 | DHCP, TFTP, NTP, Syslog |
 
 ### Physical Topology
-[ISP / WAN]
-                     |
-              [Router ISR4321]
-                     |
-              Gig0/0/0 (Trunk)
-                     |
-        +------------+------------+
-        |                         |
-   [Switch 1] ---- Trunk ---- [Switch 2]
-   (SW1-Staff)                 (SW2-Guest)
-        |                         |
-+-------+-------+           +-----+-----+
-|       |       |           |     |     |
+### Physical Topology
+
+```
+                    [ISP / WAN]
+                         |
+                  [Router ISR4321]
+                         |
+                  Gig0/0/0 (Trunk)
+                         |
+            +------------+------------+
+            |                         |
+       [Switch 1] ---- Trunk ---- [Switch 2]
+       (SW1-Staff)                 (SW2-Guest)
+            |                         |
+    +-------+-------+           +-----+-----+
+    |       |       |           |     |     |
+ Server  Staff PCs AP-1       Guest  PC3   AP-2
+ Printer            (Staff)     PC          (Guest)
+```
 ---
 
 ## 🛠️ Equipment Simulated
@@ -138,20 +144,16 @@ The following tests confirmed the network was fully functional:
 
 ## 📸 Screenshots
 
-### Full Topology
-![Topology](screenshots/01-topology.png)
 
-### NTP Synchronized
-![NTP Status](screenshots/02-ntp-synced.png)
 
-### Syslog Centralized Logging
-![Syslog Entries](screenshots/03-syslog-entries.png)
+<img width="1728" height="1117" alt="Screenshot 2026-10-13 at 11 01 13 AM" src="https://github.com/user-attachments/assets/8fe04bd3-5411-41b3-9224-b80b6b844467" />
 
-### Disaster Recovery — Config Restored from TFTP
-![Disaster Recovery](screenshots/04-disaster-recovery.png)
 
-### Port Security In Action
-![Port Security](screenshots/05-port-security.png)
+<img width="1728" height="1117" alt="Screenshot 2026-10-13 at 11 29 08 AM" src="https://github.com/user-attachments/assets/2210773f-268b-4eda-aa6e-679d0e1991f5" />
+
+
+<img width="1728" height="1117" alt="Screenshot 2026-10-13 at 12 01 07 PM" src="https://github.com/user-attachments/assets/c8b668ab-9cd2-4fe5-910c-1562f31f3637" />
+
 
 ---
 
