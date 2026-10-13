@@ -4,7 +4,7 @@
 A complete Small Office / Home Office (SOHO) network built in Cisco Packet Tracer, 
 demonstrating real-world IT support and network administration skills.
 
-![Network Topology](topology/soho-network-topology.png)
+
 
 ---
 
