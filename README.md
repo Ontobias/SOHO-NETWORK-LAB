@@ -144,6 +144,7 @@ The following tests confirmed the network was fully functional:
 
 ## 📸 Screenshots
 
+<img width="1728" height="1117" alt="Screenshot 2026-10-13 at 1 56 28 PM" src="https://github.com/user-attachments/assets/c1de3008-00f1-4378-a410-c679259aa81c" />
 
 
 <img width="1728" height="1117" alt="Screenshot 2026-10-13 at 11 01 13 AM" src="https://github.com/user-attachments/assets/8fe04bd3-5411-41b3-9224-b80b6b844467" />
